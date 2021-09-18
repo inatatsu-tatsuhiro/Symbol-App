@@ -4,6 +4,6 @@ const config = {
   FEE_MULTIPLIER: process.env.REACT_APP_FEE_MULTIPLIER,
   EPOCH_ADJUSTMENT: process.env.REACT_APP_EPOCH_ADJUSTMENT,
   NETWORK_TYPE: process.env.REACT_APP_NETWORK_TYPE,
-};
+}
 
-export default config;
+export default config

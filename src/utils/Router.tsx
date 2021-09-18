@@ -1,7 +1,7 @@
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
-import Layout from "./Layout";
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from '../pages/Home'
+import Layout from './Layout'
 
 const Router: React.VFC = () => {
   return (
@@ -10,7 +10,7 @@ const Router: React.VFC = () => {
         <Route path="/" element={<Layout title="HOME" page={<Home />} />} />
       </Routes>
     </BrowserRouter>
-  );
-};
+  )
+}
 
-export default Router;
+export default Router
